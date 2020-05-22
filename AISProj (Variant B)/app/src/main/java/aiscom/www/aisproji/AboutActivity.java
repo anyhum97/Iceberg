@@ -38,7 +38,19 @@ public class AboutActivity extends AppCompatActivity implements Button.OnClickLi
 
         String result = "";
 
-		//	deleted 
+        result += "<b>ИАС \"Гос. реестр средств измерений\"</b><br><br>";
+
+        result += "Для мобильных устройств на ОС Android<br><br>";
+
+        result += "Версия программы: <b>" + Version + "</b><br><br>";
+
+        result += "<b>Copyright © 2018</b><br><br>";
+
+        result += "Владелец лицензии: " + UserName + "<br><br>";
+
+        result += "<u>Данные Госреестра: <b>Ждановский Ю.Я.</u></b><br><br>";
+
+        result += "Автор: <b>Греков Л.В.</b><br><br>";
 
         about_textView1.setText(Html.fromHtml(result));
     }

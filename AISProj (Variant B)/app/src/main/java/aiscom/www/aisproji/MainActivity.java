@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements Button.OnClickLis
 
     //public static String IMEI = "864718030155198";
 
-    public static String IMEI = "862510037927980";	//	Test IMEI
+    public static String IMEI = "862510037927980";
 
     public static String ID = "";//356007695696635247
     public static String UserName = "Пользователь";
